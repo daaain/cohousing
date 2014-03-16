@@ -2,10 +2,6 @@
 indent_style = space
 indent_size = 2
 
-[*.coffee]
-indent_style = space
-indent_size = 2
-
 [*.scss]
 indent_style = space
 indent_size = 2
