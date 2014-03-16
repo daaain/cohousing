@@ -1,18 +1,33 @@
 @media (max-width: 480px) {
+  /* line 2, ../_sass/responsive.scss */
   body {
-    padding: 0 10px; }
-    body #container ul.posts .datetime {
-      float: none;
-      display: block;
-      width: auto;
-      text-align: left; }
-    body #container #ind-instagram, body #container #ind-linkedin {
-      display: none; }
-    body #container .links, body #container .content {
-      padding: 15px; }
-      body #container .links section.post, body #container .content section.post {
-        margin: 0 -15px; }
-        body #container .links section.post > p, body #container .links section.post h1, body #container .links section.post h2, body #container .links section.post h3, body #container .links section.post h4, body #container .links section.post .signoff, body #container .links section.post blockquote, body #container .links section.post .highlight, body #container .content section.post > p, body #container .content section.post h1, body #container .content section.post h2, body #container .content section.post h3, body #container .content section.post h4, body #container .content section.post .signoff, body #container .content section.post blockquote, body #container .content section.post .highlight {
-          padding: 0 15px; }
-        body #container .links section.post > ul, body #container .links section.post > ol, body #container .content section.post > ul, body #container .content section.post > ol {
-          padding: 0 30px; } }
+    padding: 0 10px;
+  }
+  /* line 6, ../_sass/responsive.scss */
+  body #container ul.posts .datetime {
+    float: none;
+    display: block;
+    width: auto;
+    text-align: left;
+  }
+  /* line 9, ../_sass/responsive.scss */
+  body #container #ind-instagram, body #container #ind-linkedin {
+    display: none;
+  }
+  /* line 10, ../_sass/responsive.scss */
+  body #container .links, body #container .content {
+    padding: 15px;
+  }
+  /* line 12, ../_sass/responsive.scss */
+  body #container .links section.post, body #container .content section.post {
+    margin: 0 -15px;
+  }
+  /* line 14, ../_sass/responsive.scss */
+  body #container .links section.post > p, body #container .links section.post h1, body #container .links section.post h2, body #container .links section.post h3, body #container .links section.post h4, body #container .links section.post .signoff, body #container .links section.post blockquote, body #container .links section.post .highlight, body #container .content section.post > p, body #container .content section.post h1, body #container .content section.post h2, body #container .content section.post h3, body #container .content section.post h4, body #container .content section.post .signoff, body #container .content section.post blockquote, body #container .content section.post .highlight {
+    padding: 0 15px;
+  }
+  /* line 15, ../_sass/responsive.scss */
+  body #container .links section.post > ul, body #container .links section.post > ol, body #container .content section.post > ul, body #container .content section.post > ol {
+    padding: 0 30px;
+  }
+}
