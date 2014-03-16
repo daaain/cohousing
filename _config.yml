@@ -11,6 +11,8 @@ google_analytics_url: pangolincohousing.co.uk
 links:
   - name:             About
     url:              /about
+  - name:             Ideas
+    url:              /ideas
   - name:             Blog
     url:              /blog
   - name:             Email us
