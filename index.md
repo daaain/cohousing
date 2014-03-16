@@ -6,9 +6,8 @@ We're just setting up our cohousing project and currently looking for members an
 
 Regular (likely monthly) meetup time is going to be announced here soon!
 
-Sign up to our newsletter:
+If you're interested to hear more, sign up to our newsletter using the link in the top right corner.
 
-(Mailchimp)
 
 ## Top level principles
 
