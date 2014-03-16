@@ -1,4 +1,7 @@
 title:            Pangoling Cohousing Hackney
+gems:
+- jekyll-compass
+
 description:      Because life is better in cohousing.
 url:              # Site url.
 signoff:          # Your name.
