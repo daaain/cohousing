@@ -359,7 +359,7 @@ ul.posts .datetime {
   text-transform: uppercase;
   float: right;
   color: #999;
-  font-size: 10px;
+  font-size: 0.8em;
   text-align: right;
 }
 
@@ -389,13 +389,13 @@ section.post h1 {
 /* line 209, ../_sass/style.scss */
 section.post h1 .date {
   color: #d0d0d0;
-  font-size: 10px;
+  font-size: 0.8em;
 }
-/* line 213, ../_sass/style.scss */
+/* line 214, ../_sass/style.scss */
 section.post iframe {
   width: 100%;
 }
-/* line 214, ../_sass/style.scss */
+/* line 215, ../_sass/style.scss */
 section.post iframe, section.post img {
   padding: 0;
   border-bottom-left-radius: 3px;
@@ -404,11 +404,6 @@ section.post iframe, section.post img {
   border-top-right-radius: 3px;
 }
 
-/* line 220, ../_sass/style.scss */
-section.post, section > p {
-  font-size: 14px;
-  line-height: 1.6em;
-}
 /* line 222, ../_sass/style.scss */
 section.post *, section > p * {
   max-width: 100%;
