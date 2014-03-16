@@ -26,10 +26,10 @@ $(function(){
 
   $("body").keyup(function(event) {
 
-		if($(".left > a").length == 1 && event.which == 37) 
-			location.replace($(".left >a").attr("href"));
-		else if($(".right > a").length == 1 && event.which == 39)
-			location.replace($(".right >a").attr("href"));
-	});
+    if($(".left > a").length == 1 && event.which == 37) 
+      location.replace($(".left >a").attr("href"));
+    else if($(".right > a").length == 1 && event.which == 39)
+      location.replace($(".right >a").attr("href"));
+  });
 
 });
