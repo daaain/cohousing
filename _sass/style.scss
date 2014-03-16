@@ -67,6 +67,7 @@ footer {
     padding: 30px 40px 24px;
     text-align: center;
     a.main {
+      @extend .colour-3;
       @include inline-block;
       padding: 2px 2px;
       margin-right: 12px;
