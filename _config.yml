@@ -1,26 +1,27 @@
 gems:
 - jekyll-compass
 
-title:            Pangolin Cohousing Hackney
-description:      Because life is better in cohousing.
-url:              # Site url.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title:                Pangolin Cohousing Hackney
+description:          Because life is better in cohousing.
+url:                  http://www.pangolincohousing.co.uk
+disqus_shortname:     # disqus comment thread for post header options. ( leave blank if unwanted. )
+google_analytics_id:  UA-49047503-1
+google_analytics_url: pangolincohousing.co.uk
 
 links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          /blog
-  - name:         Email
-    url:          mailto:hello@pangolincohousing.co.uk
-    external:     true
-  - name:         Newsletter
-    url:          http://eepurl.com/QuY9f
-    external:     true
-pygments:         true
-permalink:        pretty
-markdown:         redcarpet
+  - name:             About
+    url:              /about
+  - name:             Blog
+    url:              /blog
+  - name:             Email us
+    url:              mailto:hello@pangolincohousing.co.uk
+    external:         true
+  - name:             Newsletter
+    url:              http://eepurl.com/QuY9f
+    external:         true
+pygments:             true
+permalink:            pretty
+markdown:             redcarpet
 redcarpet:
   extensions:
     - smart
