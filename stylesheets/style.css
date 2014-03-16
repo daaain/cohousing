@@ -231,8 +231,12 @@ footer img#octocat {
   padding: 30px 60px;
   margin: auto;
 }
+/* line 111, ../_sass/style.scss */
+.content li {
+  margin-bottom: 0.4em;
+}
 
-/* line 99, ../_sass/style.scss */
+/* line 116, ../_sass/style.scss */
 a, .as-link {
   text-decoration: none;
   color: #269;
