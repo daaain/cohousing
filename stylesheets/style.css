@@ -14,8 +14,8 @@ body {
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.3em;
   padding: 0;
   margin: 0;
 }
@@ -129,25 +129,26 @@ header {
 /* line 42, ../_sass/style.scss */
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
   text-align: center;
+  font-size: 0.7em;
 }
-/* line 49, ../_sass/style.scss */
+/* line 50, ../_sass/style.scss */
 footer * {
   color: #797979;
 }
 
-/* line 52, ../_sass/style.scss */
+/* line 55, ../_sass/style.scss */
 #container {
   *zoom: 1;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -163,22 +164,22 @@ footer * {
 #container:after {
   clear: both;
 }
-/* line 62, ../_sass/style.scss */
+/* line 65, ../_sass/style.scss */
 #container .block {
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
   padding: 30px 40px 24px;
   text-align: center;
 }
-/* line 63, ../_sass/style.scss */
+/* line 66, ../_sass/style.scss */
 #container .block:first-child, #container .block + .block {
   border-top: 0;
 }
-/* line 64, ../_sass/style.scss */
+/* line 67, ../_sass/style.scss */
 #container .block:last-child {
   border-bottom: 0;
 }
-/* line 69, ../_sass/style.scss */
+/* line 72, ../_sass/style.scss */
 #container .block a.main {
   display: inline-block;
   vertical-align: baseline;
@@ -189,11 +190,11 @@ footer * {
   margin-right: 12px;
   margin-bottom: 6px;
 }
-/* line 75, ../_sass/style.scss */
+/* line 78, ../_sass/style.scss */
 #container .block a.main:last-of-type {
   margin-right: 0;
 }
-/* line 77, ../_sass/style.scss */
+/* line 80, ../_sass/style.scss */
 #container .block .button {
   display: inline-block;
   vertical-align: baseline;
@@ -204,7 +205,7 @@ footer * {
   overflow: hidden;
 }
 
-/* line 86, ../_sass/style.scss */
+/* line 89, ../_sass/style.scss */
 .content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -217,7 +218,7 @@ footer * {
   margin: auto;
 }
 
-/* line 96, ../_sass/style.scss */
+/* line 99, ../_sass/style.scss */
 a, .as-link {
   text-decoration: none;
   color: #269;
@@ -233,14 +234,15 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 102, ../_sass/style.scss */
-a.main, a:hover, .as-link.main, .as-link:hover {
-  color: #1d5884;
-  background-image: url(/images/line.png);
-  background-repeat: repeat-x;
-  background-position: left bottom;
+/* line 105, ../_sass/style.scss */
+a.main, .as-link.main {
+  font-size: 1.3em;
 }
 /* line 108, ../_sass/style.scss */
+a:hover, .as-link:hover {
+  color: #0b2031;
+}
+/* line 111, ../_sass/style.scss */
 a.big-button, .as-link.big-button {
   min-width: 30%;
   border-radius: 3px;
@@ -265,70 +267,70 @@ a.big-button, .as-link.big-button {
   background: #6f8f9f;
   box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.1);
 }
-/* line 127, ../_sass/style.scss */
+/* line 130, ../_sass/style.scss */
 a.big-button:hover, .as-link.big-button:hover {
   background: #608090;
 }
-/* line 130, ../_sass/style.scss */
+/* line 133, ../_sass/style.scss */
 a.big-button:active, .as-link.big-button:active {
   box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.1);
 }
-/* line 131, ../_sass/style.scss */
+/* line 134, ../_sass/style.scss */
 a.big-button.red, .as-link.big-button.red {
   border-color: #ddacac;
   background: #a65;
 }
-/* line 134, ../_sass/style.scss */
+/* line 137, ../_sass/style.scss */
 a.big-button.red:hover, .as-link.big-button.red:hover {
   background: #b76;
 }
-/* line 136, ../_sass/style.scss */
+/* line 139, ../_sass/style.scss */
 a.big-button.gray, .as-link.big-button.gray {
   border-color: #f4f4f4;
   color: #ffffff;
   background: #565656;
 }
-/* line 140, ../_sass/style.scss */
+/* line 143, ../_sass/style.scss */
 a.big-button.gray:hover, .as-link.big-button.gray:hover {
   background: #676767;
 }
-/* line 142, ../_sass/style.scss */
+/* line 145, ../_sass/style.scss */
 a.big-button.blue, .as-link.big-button.blue {
   border-color: #ace;
   background: #678;
 }
-/* line 145, ../_sass/style.scss */
+/* line 148, ../_sass/style.scss */
 a.big-button.blue:hover, .as-link.big-button.blue:hover {
   background: #789;
 }
-/* line 147, ../_sass/style.scss */
+/* line 150, ../_sass/style.scss */
 a.big-button.green, .as-link.big-button.green {
   border-color: #ddeed0;
   background: #696;
 }
-/* line 150, ../_sass/style.scss */
+/* line 153, ../_sass/style.scss */
 a.big-button.green:hover, .as-link.big-button.green:hover {
   background: #797;
 }
 
-/* line 156, ../_sass/style.scss */
+/* line 159, ../_sass/style.scss */
 hr {
   border: 0;
   border-bottom: 1px dotted #CCC;
   margin: 25px 0;
 }
 
-/* line 163, ../_sass/style.scss */
+/* line 166, ../_sass/style.scss */
 ul.posts, ul.posts li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 164, ../_sass/style.scss */
+/* line 167, ../_sass/style.scss */
 ul.posts li {
   margin-bottom: 20px;
 }
-/* line 165, ../_sass/style.scss */
+/* line 168, ../_sass/style.scss */
 ul.posts .datetime {
   display: inline-block;
   vertical-align: baseline;
@@ -343,39 +345,39 @@ ul.posts .datetime {
   text-align: right;
 }
 
-/* line 177, ../_sass/style.scss */
+/* line 180, ../_sass/style.scss */
 section.post {
   margin: 0 -60px;
   text-align: left;
   border-top: 0;
   padding: 0;
 }
-/* line 182, ../_sass/style.scss */
+/* line 185, ../_sass/style.scss */
 section.post > * {
   padding: 0 60px;
 }
-/* line 183, ../_sass/style.scss */
+/* line 186, ../_sass/style.scss */
 section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
   margin-left: 20px;
   padding: 0;
 }
-/* line 184, ../_sass/style.scss */
+/* line 187, ../_sass/style.scss */
 section.post h1 {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.5em;
   margin-bottom: 60px;
 }
-/* line 189, ../_sass/style.scss */
+/* line 192, ../_sass/style.scss */
 section.post h1 .date {
   color: #d0d0d0;
   font-size: 10px;
 }
-/* line 193, ../_sass/style.scss */
+/* line 196, ../_sass/style.scss */
 section.post iframe {
   width: 100%;
 }
-/* line 194, ../_sass/style.scss */
+/* line 197, ../_sass/style.scss */
 section.post iframe, section.post img {
   padding: 0;
   border-bottom-left-radius: 3px;
@@ -384,21 +386,21 @@ section.post iframe, section.post img {
   border-top-right-radius: 3px;
 }
 
-/* line 200, ../_sass/style.scss */
+/* line 203, ../_sass/style.scss */
 section.post, section > p {
   font-size: 14px;
   line-height: 1.6em;
 }
-/* line 202, ../_sass/style.scss */
+/* line 205, ../_sass/style.scss */
 section.post *, section > p * {
   max-width: 100%;
 }
-/* line 203, ../_sass/style.scss */
+/* line 206, ../_sass/style.scss */
 section.post em strong, section > p em strong {
   background-color: #ffffee;
   padding: 0 2px;
 }
-/* line 204, ../_sass/style.scss */
+/* line 207, ../_sass/style.scss */
 section.post blockquote, section > p blockquote {
   -webkit-transition: all, 0.3s;
   -moz-transition: all, 0.3s;
@@ -412,23 +414,23 @@ section.post blockquote, section > p blockquote {
   display: block;
   padding: 15px 60px;
 }
-/* line 212, ../_sass/style.scss */
+/* line 215, ../_sass/style.scss */
 section.post blockquote:hover, section > p blockquote:hover {
   color: #454545;
 }
-/* line 213, ../_sass/style.scss */
+/* line 216, ../_sass/style.scss */
 section.post blockquote:hover:before, section > p blockquote:hover:before {
   color: #b8cec7;
 }
-/* line 214, ../_sass/style.scss */
+/* line 217, ../_sass/style.scss */
 section.post blockquote:before, section > p blockquote:before {
   left: -3px;
 }
-/* line 215, ../_sass/style.scss */
+/* line 218, ../_sass/style.scss */
 section.post blockquote:after, section > p blockquote:after {
   right: -2px;
 }
-/* line 216, ../_sass/style.scss */
+/* line 219, ../_sass/style.scss */
 section.post blockquote:before, section.post blockquote:after, section > p blockquote:before, section > p blockquote:after {
   content: "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^";
   font-size: 24px;
@@ -443,22 +445,22 @@ section.post blockquote:before, section.post blockquote:after, section > p block
   width: 7px !important;
   white-space: normal;
 }
-/* line 229, ../_sass/style.scss */
+/* line 232, ../_sass/style.scss */
 section.post li .highlight, section > p li .highlight {
   padding: 0 10px;
 }
-/* line 230, ../_sass/style.scss */
+/* line 233, ../_sass/style.scss */
 section.post li p, section > p li p {
   margin-bottom: 5px;
 }
 
-/* line 232, ../_sass/style.scss */
+/* line 235, ../_sass/style.scss */
 .highlight {
   margin: 0;
   padding: 0;
 }
 
-/* line 233, ../_sass/style.scss */
+/* line 236, ../_sass/style.scss */
 pre {
   overflow-x: auto;
   padding: 10px 0;
@@ -469,7 +471,7 @@ pre {
   box-sizing: border-box;
 }
 
-/* line 241, ../_sass/style.scss */
+/* line 244, ../_sass/style.scss */
 code {
   font-size: 13px;
   color: #eee;
@@ -484,45 +486,45 @@ code {
   *vertical-align: auto;
 }
 
-/* line 242, ../_sass/style.scss */
+/* line 245, ../_sass/style.scss */
 img {
   max-width: 100%;
 }
-/* line 244, ../_sass/style.scss */
+/* line 247, ../_sass/style.scss */
 img.half {
   width: 50%;
 }
 
-/* line 246, ../_sass/style.scss */
+/* line 249, ../_sass/style.scss */
 .signoff {
   margin-top: 30px;
 }
-/* line 246, ../_sass/style.scss */
+/* line 249, ../_sass/style.scss */
 .signoff img {
   width: 20px;
 }
 
-/* line 248, ../_sass/style.scss */
+/* line 251, ../_sass/style.scss */
 .paging a {
   opacity: 0.25;
 }
-/* line 249, ../_sass/style.scss */
+/* line 252, ../_sass/style.scss */
 .paging a:hover {
   opacity: 0.7;
   background: none;
 }
-/* line 250, ../_sass/style.scss */
+/* line 253, ../_sass/style.scss */
 .paging .left, .paging .right {
   position: fixed;
   top: 50%;
   left: 50%;
   font-size: 60px;
 }
-/* line 256, ../_sass/style.scss */
+/* line 259, ../_sass/style.scss */
 .paging .left {
   margin-left: -340px;
 }
-/* line 257, ../_sass/style.scss */
+/* line 260, ../_sass/style.scss */
 .paging .right {
   margin-left: 320px;
 }

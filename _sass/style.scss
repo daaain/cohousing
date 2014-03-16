@@ -11,8 +11,8 @@ body {
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.3em;
   padding: 0; margin: 0;
 }
 img { border: none; }
@@ -41,19 +41,22 @@ header { text-align: center; }
 
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
   text-align: center;
-  * { color: #797979; }
+  font-size: 0.7em;
+  * {
+    color: #797979;
+  }
 }
 
 #container {
   @include clearfix;
   @include box-sizing(border-box);
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -99,11 +102,11 @@ a, .as-link {
   line-height: 1.4em;
   @include inline-block;
   @include transition(color 0.3s);
-  &.main, &:hover { 
-    color: darken(#269, 5%);
-    background-image: url(/images/line.png);
-    background-repeat: repeat-x;
-    background-position: left bottom;
+  &.main {
+    font-size: 1.3em;
+  }
+  &:hover { 
+    color: darken(#269, 25%);
   }
   &.big-button {
     min-width: 30%;
