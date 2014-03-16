@@ -3,7 +3,30 @@ layout: page
 title: Ideas
 ---
 
-## Areas
+## Sustainable feature ideas
+
+   * Communal solar PV panels for electricity with inverters and possibly 12V DC grid throughout the house (we’ll need some special smart meters?)
+   * Communal solar hot water / heating with gas backup (condensing boiler and heat pump)
+   * Underfloor / wall heating (for easily reconfigurable spaces) with smart controls (possibly Nest)
+   * Solar PV on windows (Oxford PV)
+   * Rainwater storage for toilet flushing via flat roof
+
+----
+
+## Sharing ideas
+
+   * Freehold owned by a cooperative / social enterprise to keep control with inhabitants and accountability towards council / community
+   * Web based services / infrastructure
+      * to book communal areas / tools / laundry room
+      * get sensor / booking / etc data
+      * a system to be able to choose a mixture between volunteering or paying for services around the freehold
+      * a system to order food together
+   * Some communal facilities (hall / tea house / gardens) partially open to wider community
+   * Each year for one month the guest room could be offered to host a previously homeless person in exchange for some communal work
+
+----
+
+## Area ideas
 
 ### Yard / garden
    
@@ -44,23 +67,4 @@ title: Ideas
 
    * Low cost community shop premise?
    * Community hall entrance (with Budapest style teahouse)
-
-## Shared / sustainable feature ideas
-
-   * Communal solar PV panels for electricity with inverters and possibly 12V DC grid throughout the house (we’ll need some special smart meters?)
-   * Communal solar hot water / heating with gas backup (condensing boiler and heat pump)
-   * Underfloor / wall heating (for easily reconfigurable spaces) with smart controls (possibly Nest)
-   * Solar PV on windows (Oxford PV)
-   * Rainwater storage for toilet flushing via flat roof
-
-## Sharing ideas
-
-   * Freehold owned by a cooperative / social enterprise to keep control with inhabitants and accountability towards council / community
-   * Web based services / infrastructure
-      * to book communal areas / tools / laundry room
-      * get sensor / booking / etc data
-      * a system to be able to choose a mixture between volunteering or paying for services around the freehold
-      * a system to order food together
-   * Some communal facilities (hall / tea house / gardens) partially open to wider community
-   * Each year for one month the guest room could be offered to host a previously homeless person in exchange for some communal work
 
