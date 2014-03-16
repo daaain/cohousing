@@ -8,6 +8,8 @@ Regular (likely monthly) meetup time is going to be announced here soon!
 
 If you're interested to hear more, sign up to our newsletter using the link in the top right corner.
 
+----
+
 ## Our founding principles
 
    * Solving big city isolation by **building a community** of people living together and not just living next to each other
