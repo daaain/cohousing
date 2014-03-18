@@ -8,6 +8,8 @@ Regular (likely monthly) meetup time is going to be announced here soon!
 
 If you're interested to hear more, sign up to our newsletter using the link in the top right corner.
 
+Though this is *very* speculative, we're aiming at a 10-20 flat development and have target price ranges of: 1 bed £175-275k / 2 bed £225-325k / 3 bed £275-375k in mind, depending on the type of funding and amount of grants we can raise.
+
 ----
 
 ## Our founding principles
