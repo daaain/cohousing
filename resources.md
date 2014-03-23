@@ -11,7 +11,7 @@ The best, 2 minutes explanation I found so far about cohousing is this page from
 
 <a href="../images/what-is-cohousing.png" data-fancybox-group="gallery" class="fancybox" title="What is cohousing?"><img src="../images/what-is-cohousing.png"></img></a>
 
-Check out the full original PDF (only a few pages long): [http://www.cohousing.org.uk/files/ukcn_leaflet_2013_0.pdf](http://www.cohousing.org.uk/files/ukcn_leaflet_2013_0.pdf)
+Check out the full original PDF (only a few pages long): [http://www.cohousing.org.uk/files/ukcn\_leaflet\_2013_0.pdf](http://www.cohousing.org.uk/files/ukcn_leaflet_2013_0.pdf)
 
 ## General cohousing related resources
 
