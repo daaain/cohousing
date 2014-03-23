@@ -13,6 +13,8 @@ links:
     url:              /about
   - name:             Ideas
     url:              /ideas
+  - name:             Resources
+    url:              /resources
   - name:             Blog
     url:              /blog
   - name:             Email us
